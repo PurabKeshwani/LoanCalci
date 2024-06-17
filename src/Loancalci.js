@@ -11,15 +11,15 @@ const LoanCalci = () => {
 
   const calculateLoan = () => {
     if (!loanAmount || parseFloat(loanAmount) <= 0) {
-      alert("Bhai Loan Amount Daalo Jaldi Se");
+      alert("Please Enter Loan Amount");
       return;
     }
     if (!loanTenure || parseFloat(loanTenure) <= 0) {
-      alert("Bhai Kitne Waqt ke liye Chahiye?");
+      alert("Please Enter Tenure");
       return;
     }
     if (!interestRate || parseFloat(interestRate) <= 0) {
-      alert("Bhai Interest Kitna Hai?");
+      alert("Please Enter Interest");
       return;
     }
 
